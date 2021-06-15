@@ -33,31 +33,88 @@
 
 </head>
 <body>
+    <div id="wrap">
 
-  <div id="wrap">
-   <h1>GNB만들기</h1>
-   <!--
-   메인메뉴
-   ul#mainMenu>li.main
+        <h1>GNB 만들기</h1>
 
-   서브메뉴
-   ul.sybMenu
+        <!--
+       메인메뉴
+       ul#mainMenu>li.mainLi>a[href=#]{메뉴$}
+       서브메뉴
+       ul.subMenu>li.subLi*3>a[href=#]{서브메뉴$}
+       -->
+        <nav id="gnb">
+            <ul id="mainMenu" class="flexContainer">
+                <li class="mainLi">
+                    <a href="#">홈</a>
 
-   -->
+                    <ul class="subMenu">
+                        <li class="subLi">
+                            <a href="#">서브메뉴1</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴2</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴3</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="mainLi">
+                    <a href="#">오늘의 메뉴</a>
+
+                    <ul class="subMenu">
+                        <li class="subLi">
+                            <a href="#">서브메뉴1</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴2</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴3</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="mainLi">
+                    <a href="#">게시판</a>
+
+                    <ul class="subMenu">
+                        <li class="subLi">
+                            <a href="#">서브메뉴1</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴2</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴3</a>
+                        </li>
+                    </ul>
 
 
+                </li>
+                <li class="mainLi">
+                    <a href="#">회원이야기</a>
+
+                    <ul class="subMenu">
+                        <li class="subLi">
+                            <a href="#">서브메뉴1</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴2</a>
+                        </li>
+                        <li class="subLi">
+                            <a href="#">서브메뉴3</a>
+                        </li>
+                    </ul>
 
 
-   <nav id="gnb">
-       <ul id="mainMenu" class="flexContainer">
-           <li class="mainLi"><a href="#">메뉴1</a></li>
-           <li class="mainLi"><a href="#">메뉴2</a></li>
-           <li class="mainLi"><a href="#">메뉴3</a></li>
-           <li class="mainLi"><a href="#">메뉴4</a></li>
-       </ul>
-   </nav>
+                </li>
+            </ul>
+        </nav>
 
-   </div>
 
+    </div>
 </body>
 </html>
