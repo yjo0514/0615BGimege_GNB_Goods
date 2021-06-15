@@ -1,0 +1,25 @@
+   @charset "URF-8";
+
+
+
+nav#gnb{
+     border: 1px solid #aaa;
+    }
+
+
+     #gnb>ul#mainMenu{}
+
+
+     #gnb a{
+         padding: 0 30px;
+         font-size: 17px;
+         text-align: center;
+         height: 48px;
+         border: 1px solid #08f;
+         display: inline-block;
+     }
+
+     #gnb a:hover{
+         color: rgba(34, 34, 34, 0.47);
+         font-weight: bold;
+     }
